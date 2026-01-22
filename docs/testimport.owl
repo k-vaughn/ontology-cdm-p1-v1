@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/citydata/testimport/"
+     xml:base="https://w3id.org/citydata/testimport/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:test="https://w3id.org/citydata/test/"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="https://w3id.org/citydata/testimport/">
+    		<owl:imports rdf:resource="https://w3id.org/citydata/test/test.owl"/>
+    		<owl:imports rdf:resource="https://w3id.org/citydata/test/Change.owl"/>
+        <dc:creator>Megan Katsumi</dc:creator>
+        <dc:description>Ontology to test the partial import of a large ontology in multiple files.</dc:description>
+        <dc:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2017-11-06</dc:issued>
+        <dc:title>Test Import Ontology</dc:title>
+        <vann:preferredNamespacePrefix>its-test</vann:preferredNamespacePrefix>
+    </owl:Ontology>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <!-- https://w3id.org/citydata/testimport/ClassWithImport -->
+
+    <owl:Class rdf:about="https://w3id.org/citydata/testimport/ClassWithImport">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/citydata/test/ActivityOntologyThing"/>
+    </owl:Class>
+    
+
+
+
+    
+</rdf:RDF>
