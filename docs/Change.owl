@@ -11,10 +11,10 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:time="http://www.w3.org/2006/time#">
-    <owl:Ontology rdf:about="https://w3id.org/isoiec5087-1/v1/MereologyPattern">
+    <owl:Ontology rdf:about="https://w3id.org/isoiec5087-1/v1/ChangePattern">
     	<!-- Identity -->
-    	<dcterms:title>Information technology - City data model - Part 1: Foundation level concepts - Mereology Pattern</dcterms:title>
-    	<skos:definition>This ontology specifies the foundation-level concepts related to the mereology pattern of the city data model.</skos:definition>
+    	<dcterms:title>Information technology - City data model - Part 1: Foundation level concepts - Change Pattern</dcterms:title>
+    	<skos:definition>This ontology specifies the foundation-level concepts related to the change pattern of the city data model.</skos:definition>
     	<vann:preferredNamespaceUri>https://w3id.org/isoiec5087-1/v1/</vann:preferredNamespaceUri>
     	<vann:preferredNamespacePrefix>cdm1</vann:preferredNamespacePrefix>
     		

@@ -75,7 +75,7 @@
     </owl:ObjectProperty>
     
 
-    <!-- Issue: Addition in v1.3.0 -->
+    <!-- Issue: Addition in v1.2.0 -->
     <!-- https://w3id.org/isoiec5087/-1/v1/performedBy -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087/-1/v1/performedBy">

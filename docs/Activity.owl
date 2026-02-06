@@ -34,7 +34,7 @@
         
         <!-- Imports -->
         <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
-        <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/MereologyPattern"/>
+        <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/ChangePattern"/>
         <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/SpatialLocationPattern"/>
     </owl:Ontology>
 
@@ -243,7 +243,7 @@
     </owl:ObjectProperty>
     
 
-    <!-- Issue: v1.3.0 addition: ISO/IEC 5087-1 only defines occursBefore -->
+    <!-- Issue: v1.2.0 addition: ISO/IEC 5087-1 only defines occursBefore -->
     <!-- https://w3id.org/isoiec5087/-1/v1/occursAfter -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087/-1/v1/occursAfter">
@@ -275,7 +275,7 @@
     </owl:ObjectProperty>
     
 
-    <!-- Issue: v1.3.0 addition: ISO/IEC 5087-1 only defines occursDirectlyBefore -->
+    <!-- Issue: v1.2.0 addition: ISO/IEC 5087-1 only defines occursDirectlyBefore -->
     <!-- https://w3id.org/isoiec5087/-1/v1/occursDirectlyAfter -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087/-1/v1/occursDirectlyAfter">
@@ -325,7 +325,7 @@
     </owl:ObjectProperty>
     
 
-    <!-- Issue: v1.3.0 addition -->
+    <!-- Issue: v1.2.0 addition -->
     <!-- https://w3id.org/isoiec5087/-1/v1/terminalAchievedAt -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087/-1/v1/terminalAchievedAt">
