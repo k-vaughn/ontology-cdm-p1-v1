@@ -102,7 +102,7 @@
     <!-- https://w3id.org/isoiec5087-1/v1/causedByActivity -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/causedByActivity">
-        <skos:definition>Identifies an Activity that in some (indirect) way caused the State to be realized. The causedBy property is the inverse of the causes property and is a generalization (super-property) of the effectOf property.</skos:definition>
+        <skos:definition>Identifies an Activity that in some (indirect) way caused the State to be realized. The causedByActivity property is the inverse of the causes property and is a generalization (super-property) of the effectOf property.</skos:definition>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/ActivityObjectProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/isoiec5087-1/v1/State"/>
         <rdfs:range rdf:resource="https://w3id.org/isoiec5087-1/v1/Activity"/>
@@ -166,7 +166,7 @@
     <!-- https://w3id.org/isoiec5087-1/v1/enablesActivity -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/enablesActivity">
-        <skos:definition>Identifies an Activity that in some (indirect) way was enabled by the State. The enables property is the inverse of the enabledBy property and is a generalization (super-property) of the preconditionOf property.</skos:definition>
+        <skos:definition>Identifies an Activity that in some (indirect) way was enabled by the State. The enables property is the inverse of the enabledByState property and is a generalization (super-property) of the preconditionOf property.</skos:definition>
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/ActivityObjectProperty"/>
         <rdfs:domain rdf:resource="https://w3id.org/isoiec5087-1/v1/State"/>
         <rdfs:range rdf:resource="https://w3id.org/isoiec5087-1/v1/Activity"/>
@@ -200,8 +200,8 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/hasEffect">
         <skos:definition>Identifies a State that is realized once the Activity has occurred.</skos:definition>
-        <!-- Issue: changed the subProperty to be of causes rather than causedBy to align with ISO/IEC 5087-1 and other rules -->
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/causes"/>
+        <!-- Issue: changed the subProperty to be of causesState rather than causedByActivity to align with ISO/IEC 5087-1 and other rules -->
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/causesState"/>
     </owl:ObjectProperty>
     
 
@@ -209,7 +209,7 @@
 
     <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/hasPrecondition">
         <skos:definition>Identifies a State that must be realized in order for the Activity to occur.</skos:definition>
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/enabledBy"/>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/enabledByState"/>
         <owl:inverseOf rdf:resource="https://w3id.org/isoiec5087-1/v1/preconditionOf"/>
     </owl:ObjectProperty>
     
@@ -384,7 +384,7 @@ An Activity may have some Manifestations that participate in it.</skos:definitio
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/enabledBy"/>
+                <owl:onProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/enabledByState"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/isoiec5087-1/v1/State"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -396,7 +396,7 @@ An Activity may have some Manifestations that participate in it.</skos:definitio
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/causes"/>
+                <owl:onProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/causesState"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/isoiec5087-1/v1/State"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -541,7 +541,7 @@ An Activity may have some Manifestations that participate in it.</skos:definitio
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/causedBy"/>
+                <owl:onProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/causedByActivity"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/isoiec5087-1/v1/Activity"/>
             </owl:Restriction>
         </rdfs:subClassOf>

@@ -54,6 +54,33 @@
     </owl:ObjectProperty>
 
 
+    <!-- Issue: Moved from CityUnits to put into a more logical location. -->
+    <!-- https://w3id.org/isoiec5087-1/v1/aggregateOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregateOf">
+        <skos:definition>One object within a collection.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="CityUnitObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+    <!-- Issue: Moved from CityUnits to put into a more logical location. -->
+    <!-- Issue: While aggregateOver is declared in ISO/IEC 5087-1, no definition is provided there or in the OWL files and it is never used in the document. The same concept seems to be called aggregationOf in ISO/IEC 5087-2, which is likely a more widely used term. Thus, aggregateOver is defined as a synonym to aggregationOf with a generic definition without a range. -->
+    <!-- https://w3id.org/isoiec5087-1/v1/aggregationOf -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregationOf">
+        <skos:definition>A collection of objects.</skos:definition>
+        <rdfs:subPropertyOf rdf:resource="LocationObjectProperty"/>
+    </owl:ObjectProperty>
+    
+    <!-- https://w3id.org/isoiec5087-1/v1/aggregateOver -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregateOver">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/aggregationOf"/>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+        <rdfs:subPropertyOf rdf:resource="FoundationalCdmObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
     <!-- Issue: ISO/IEC 5087-1 also defines "partOf" with a definition of "", but without any further definition (i.e., it has an empty row in the properties table and is not used as a parent class for any of the other properties.) It seems as if the intent was to define it and use it as a parent class for properPartOf -->
 
     <!-- Issue: It seems as if properPartOf, hasProperPart, componentOf, and hasComponent, and partOf should be transitive properties. -->

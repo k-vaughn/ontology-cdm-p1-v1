@@ -36,7 +36,6 @@
         <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
         <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/ActivityPattern"/>
         <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/GenericPropertiesPattern"/>
-        <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/SpatialLocPattern"/>
     </owl:Ontology>
 
     

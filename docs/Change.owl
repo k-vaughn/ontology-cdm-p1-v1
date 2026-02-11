@@ -41,6 +41,24 @@
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
+    // Annotation Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+     <!-- https://w3id.org/isoiec5087-1/v1/isInvariant -->
+
+    <owl:AnnotationProperty rdf:about="https://w3id.org/isoiec5087-1/v1/isInvariant">
+        <rdfs:comment xml:lang="en">Identifies whether a property is to be interpreted as invariant (i.e., its value is not subject to change over time).</rdfs:comment>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
     // Object Properties
     //
     ///////////////////////////////////////////////////////////////////////////////////////

@@ -55,31 +55,33 @@
         <skos:definition>Added for organizational purposes, to identify all city unit object properties defined in the City Data Model.</skos:definition>
     </owl:ObjectProperty>
 
-
+    <!-- Issue: Moved from CityUnits to Mereology. -->
     <!-- Issue: While aggregateOf is declared in ISO/IEC 5087-1, no definition is provided there or in the OWL files and it is never used in the document. It is also a generic term used in many other contexts (e.g., 5087-2). Thus, it is defined here generically removing the Quantity range. -->
     <!-- https://w3id.org/isoiec5087-1/v1/aggregateOf -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregateOf">
+<!--    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregateOf">
         <skos:definition>One object within a collection.</skos:definition>
         <rdfs:subPropertyOf rdf:resource="CityUnitObjectProperty"/>
-    </owl:ObjectProperty>
+    </owl:ObjectProperty>  -->
     
 
+    <!-- Issue: Moved from CityUnits to Mereology. -->
     <!-- Issue: While aggregateOver is declared in ISO/IEC 5087-1, no definition is provided there or in the OWL files and it is never used in the document. The same concept seems to be called aggregationOf in ISO/IEC 5087-2, which is likely a more widely used term. Thus, aggregateOver is defined as a synonym to aggregationOf with a generic definition without a range. -->
     <!-- https://w3id.org/isoiec5087-1/v1/aggregationOf -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregationOf">
+<!--    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregationOf">
         <skos:definition>A collection of objects.</skos:definition>
         <rdfs:subPropertyOf rdf:resource="LocationObjectProperty"/>
-    </owl:ObjectProperty>
+    </owl:ObjectProperty>  -->
     
+    <!-- Issue: Moved from CityUnits to Mereology. -->
     <!-- https://w3id.org/isoiec5087-1/v1/aggregateOver -->
 
-    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregateOver">
+<!--    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/aggregateOver">
         <owl:equivalentProperty rdf:resource="https://w3id.org/isoiec5087-1/v1/aggregationOf"/>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
         <rdfs:subPropertyOf rdf:resource="FoundationalCdmObjectProperty"/>
-    </owl:ObjectProperty>
+    </owl:ObjectProperty>  -->
     
 
     <!-- Issue: ISO/IEC 5087-1 defines hasAggregateFunction with a range of "i72:function" but function is not defined in that document. This ontology defines a stub for Function with no real meaning. Recommend deletion until a proper Function is defined. -->
@@ -306,7 +308,7 @@
 
     <owl:Class rdf:about="https://w3id.org/isoiec5087-1/v1/CardinalityUnitPerTime">
         <rdfs:subClassOf rdf:resource="https://w3id.org/isoiec5087-1/v1/CityUnitsThing"/>
-        <rdfs:subClassOf rdf:resource="https://w3id.org/isoiec21972/v1/Unit_of_measureDivision"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/isoiec21972/v1/Unit_division"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/isoiec21972/v1/denominator"/>

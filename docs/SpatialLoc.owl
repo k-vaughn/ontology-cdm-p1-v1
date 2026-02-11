@@ -119,6 +119,7 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/isoiec5087-1/v1/LocationDataProperty">
         <rdfs:comment>Created for organizational purposes, to identify location data properties.</rdfs:comment>
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/FoundationalCdmDataProperty"/>
     </owl:DatatypeProperty>
     
 
@@ -140,6 +141,31 @@
         <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/LocationDataProperty"/>
     </owl:DatatypeProperty>
     
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+    <!-- https://w3id.org/isoiec5087-1/v1/LocationThing -->
+
+    <owl:Class rdf:about="https://w3id.org/isoiec5087-1/v1/SpatialLocThing">
+        <skos:definition>Added for organizational purposes, to identify all classes defined in the Location pattern of the CDM ontology.</skos:definition>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/isoiec5087-1/v1/FoundationalCdmThing"/>
+    </owl:Class>
+    
+
+    <owl:Class rdf:about="https://w3id.org/isoiec5087-1/v1/Location">
+        <skos:definition>A location.</skos:definition>
+        <rdfs:subClassOf rdf:resource="http://www.opengis.net/ont/geosparql#Geometry"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/isoiec5087-1/v1/SpatialLocThing"/>
+    </owl:Class>
+    
+
 </rdf:RDF>
 
 

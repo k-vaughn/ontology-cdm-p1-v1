@@ -34,7 +34,6 @@
         
         <!-- Imports -->
         <owl:imports rdf:resource="http://www.w3.org/2006/time"/>
-        <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/ActivityPattern"/>
         <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/GenericPropertiesPattern"/>
         <owl:imports rdf:resource="https://w3id.org/isoiec5087-1/v1/ResourcePattern"/>
     </owl:Ontology>
@@ -56,11 +55,11 @@
     </owl:ObjectProperty>
 
 
-    <!-- https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Agent#performedBy -->
+    <!-- https://w3id.org/isoiec5087-1/v1/performedBy -->
 
-    <owl:ObjectProperty rdf:about="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Agent#performedBy">
-        <rdfs:subPropertyOf rdf:resource="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Agent#AgentOntologyObjectProperty"/>
-        <owl:inverseOf rdf:resource="https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Agent#performs"/>
+    <owl:ObjectProperty rdf:about="https://w3id.org/isoiec5087-1/v1/performedBy">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/isoiec5087-1/v1/AgentObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/isoiec5087-1/v1/performs"/>
     </owl:ObjectProperty>
     
 
