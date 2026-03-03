@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # AgentThing
 
 ![AgentThing Diagram](diagrams/AgentThing.dot.svg)

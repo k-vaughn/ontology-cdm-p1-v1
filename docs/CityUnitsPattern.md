@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # City Units Pattern
 
 This ontology specifies the foundation-level concepts related to the city units pattern of the city data model.

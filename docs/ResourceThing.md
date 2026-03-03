@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # ResourceThing
 
 ![ResourceThing Diagram](diagrams/ResourceThing.dot.svg)

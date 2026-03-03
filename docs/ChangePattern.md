@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Change Pattern
 
 This ontology specifies the foundation-level concepts related to the change pattern of the city data model.

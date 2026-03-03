@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Area
 
 ![Area Diagram](diagrams/Area.dot.svg)

@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # DailyRecurringEvent
 
 ![DailyRecurringEvent Diagram](diagrams/DailyRecurringEvent.dot.svg)

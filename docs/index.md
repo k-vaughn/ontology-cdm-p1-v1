@@ -1,7 +1,5 @@
 # Information technology - City data model - Part 1: Foundation level concepts
 
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 The Information technology - City data model - Part 1: Foundation level concepts ontology consists of the following:
 
 - [5087-1](5087-1.md)
