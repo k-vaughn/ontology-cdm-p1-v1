@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Agreement Pattern
 
 This ontology specifies the foundation-level concepts related to the agreement pattern of the city data model.

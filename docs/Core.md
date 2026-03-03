@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Core
 
 This ontology specifies the foundation-level concepts that are used by all other patterns of the city data model.

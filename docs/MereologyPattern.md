@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Mereology Pattern
 
 This ontology specifies the foundation-level concepts related to the mereology pattern of the city data model.

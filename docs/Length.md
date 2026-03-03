@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Length
 
 ![Length Diagram](diagrams/Length.dot.svg)

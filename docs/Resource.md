@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Resource
 
 ![Resource Diagram](diagrams/Resource.dot.svg)

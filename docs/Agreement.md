@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Agreement
 
 ![Agreement Diagram](diagrams/Agreement.dot.svg)

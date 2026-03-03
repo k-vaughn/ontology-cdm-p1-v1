@@ -1,5 +1,3 @@
-![Draft for review only](/assets/img/draft_for_review.svg)
-
 # Spatial Loc Pattern
 
 This ontology specifies the foundation-level concepts related to the spatial location pattern of the city data model.
