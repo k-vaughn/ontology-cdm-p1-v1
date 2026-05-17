@@ -14,7 +14,7 @@
 <!-- CdmThing -->
 <g id="node1" class="node">
 <title>CdmThing</title>
-<g id="a_node1"><a xlink:href="../CdmThing.md" xlink:title="&lt;TABLE&gt;">
+<g id="a_node1"><a xlink:href="../CdmThing" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgray" stroke="none" points="1,-25.88 1,-42.12 59.25,-42.12 59.25,-25.88 1,-25.88"/>
 <text xml:space="preserve" text-anchor="start" x="2" y="-29.73" font-family="Arial" font-size="12.00">CdmThing</text>
 <polygon fill="none" stroke="black" points="0,-24.88 0,-43.12 60.25,-43.12 60.25,-24.88 0,-24.88"/>

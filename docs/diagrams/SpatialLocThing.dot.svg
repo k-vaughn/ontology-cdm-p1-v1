@@ -14,28 +14,28 @@
 <!-- SpatialLocThing -->
 <g id="node1" class="node">
 <title>SpatialLocThing</title>
-<g id="a_node1"><a xlink:href="../SpatialLocThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="20.5,-25.88 20.5,-42.12 110.25,-42.12 110.25,-25.88 20.5,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="21.5" y="-29.73" font-family="Arial" font-size="12.00">SpatialLocThing</text>
-<polygon fill="none" stroke="black" points="19.5,-24.88 19.5,-43.12 111.25,-43.12 111.25,-24.88 19.5,-24.88"/>
+<g id="a_node1"><a xlink:href="../SpatialLocThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="20.5,-81.88 20.5,-98.12 110.25,-98.12 110.25,-81.88 20.5,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="21.5" y="-85.72" font-family="Arial" font-size="12.00">SpatialLocThing</text>
+<polygon fill="none" stroke="black" points="19.5,-80.88 19.5,-99.12 111.25,-99.12 111.25,-80.88 19.5,-80.88"/>
 </a>
 </g>
 </g>
 <!-- FoundationalCdmThing -->
 <g id="node3" class="node">
 <title>FoundationalCdmThing</title>
-<g id="a_node3"><a xlink:href="../FoundationalCdmThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-97.88 1,-114.12 129.75,-114.12 129.75,-97.88 1,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-101.72" font-family="Arial" font-size="12.00">FoundationalCdmThing</text>
-<polygon fill="none" stroke="black" points="0,-96.88 0,-115.12 130.75,-115.12 130.75,-96.88 0,-96.88"/>
+<g id="a_node3"><a xlink:href="../FoundationalCdmThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-9.88 1,-26.12 129.75,-26.12 129.75,-9.88 1,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-13.72" font-family="Arial" font-size="12.00">FoundationalCdmThing</text>
+<polygon fill="none" stroke="black" points="0,-8.88 0,-27.12 130.75,-27.12 130.75,-8.88 0,-8.88"/>
 </a>
 </g>
 </g>
 <!-- SpatialLocThing&#45;&gt;FoundationalCdmThing -->
 <g id="edge1" class="edge">
 <title>SpatialLocThing&#45;&gt;FoundationalCdmThing</title>
-<path fill="none" stroke="black" d="M65.38,-51.79C65.38,-59.25 65.38,-68.24 65.38,-76.69"/>
-<polygon fill="none" stroke="black" points="61.88,-76.54 65.38,-86.54 68.88,-76.54 61.88,-76.54"/>
+<path fill="none" stroke="black" d="M65.38,-72.05C65.38,-64.57 65.38,-55.58 65.38,-47.14"/>
+<polygon fill="none" stroke="black" points="68.88,-47.3 65.38,-37.3 61.88,-47.3 68.88,-47.3"/>
 </g>
 <!-- Invis -->
 </g>

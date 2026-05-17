@@ -2,10 +2,10 @@
 
 This ontology specifies the foundation-level concepts related to the recurring event pattern of the city data model.
 
-This pattern imports the following patterns:
+This pattern imports the following files:
 
-- [Activity Pattern](ActivityPattern.md)
-- [Generic Properties Pattern](GenericPropertiesPattern.md)
+- [https://w3id.org/citydata/part1/v1/ActivityPattern/](https://w3id.org/citydata/part1/v1/ActivityPattern/)
+- [https://w3id.org/citydata/part1/v1/GenericPropertiesPattern/](https://w3id.org/citydata/part1/v1/GenericPropertiesPattern/)
 
 This pattern consists of the following classes:
 

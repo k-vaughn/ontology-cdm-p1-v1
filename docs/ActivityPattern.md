@@ -2,10 +2,10 @@
 
 This ontology specifies the foundation-level concepts related to the activity pattern of the city data model.
 
-This pattern imports the following patterns:
+This pattern imports the following files:
 
-- [Change Pattern](ChangePattern.md)
-- [Spatial Loc Pattern](SpatialLocPattern.md)
+- [https://w3id.org/citydata/part1/v1/ChangePattern/](https://w3id.org/citydata/part1/v1/ChangePattern/)
+- [https://w3id.org/citydata/part1/v1/SpatialLocPattern/](https://w3id.org/citydata/part1/v1/SpatialLocPattern/)
 
 This pattern consists of the following classes:
 

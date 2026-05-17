@@ -14,28 +14,28 @@
 <!-- ActivityThing -->
 <g id="node1" class="node">
 <title>ActivityThing</title>
-<g id="a_node1"><a xlink:href="../ActivityThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="29.88,-25.88 29.88,-42.12 100.88,-42.12 100.88,-25.88 29.88,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="30.88" y="-29.73" font-family="Arial" font-size="12.00">ActivityThing</text>
-<polygon fill="none" stroke="black" points="28.88,-24.88 28.88,-43.12 101.88,-43.12 101.88,-24.88 28.88,-24.88"/>
+<g id="a_node1"><a xlink:href="../ActivityThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="29.88,-81.88 29.88,-98.12 100.88,-98.12 100.88,-81.88 29.88,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="30.88" y="-85.72" font-family="Arial" font-size="12.00">ActivityThing</text>
+<polygon fill="none" stroke="black" points="28.88,-80.88 28.88,-99.12 101.88,-99.12 101.88,-80.88 28.88,-80.88"/>
 </a>
 </g>
 </g>
 <!-- FoundationalCdmThing -->
 <g id="node3" class="node">
 <title>FoundationalCdmThing</title>
-<g id="a_node3"><a xlink:href="../FoundationalCdmThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-97.88 1,-114.12 129.75,-114.12 129.75,-97.88 1,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-101.72" font-family="Arial" font-size="12.00">FoundationalCdmThing</text>
-<polygon fill="none" stroke="black" points="0,-96.88 0,-115.12 130.75,-115.12 130.75,-96.88 0,-96.88"/>
+<g id="a_node3"><a xlink:href="../FoundationalCdmThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-9.88 1,-26.12 129.75,-26.12 129.75,-9.88 1,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-13.72" font-family="Arial" font-size="12.00">FoundationalCdmThing</text>
+<polygon fill="none" stroke="black" points="0,-8.88 0,-27.12 130.75,-27.12 130.75,-8.88 0,-8.88"/>
 </a>
 </g>
 </g>
 <!-- ActivityThing&#45;&gt;FoundationalCdmThing -->
 <g id="edge1" class="edge">
 <title>ActivityThing&#45;&gt;FoundationalCdmThing</title>
-<path fill="none" stroke="black" d="M65.38,-51.79C65.38,-59.25 65.38,-68.24 65.38,-76.69"/>
-<polygon fill="none" stroke="black" points="61.88,-76.54 65.38,-86.54 68.88,-76.54 61.88,-76.54"/>
+<path fill="none" stroke="black" d="M65.38,-72.05C65.38,-64.57 65.38,-55.58 65.38,-47.14"/>
+<polygon fill="none" stroke="black" points="68.88,-47.3 65.38,-37.3 61.88,-47.3 68.88,-47.3"/>
 </g>
 <!-- Invis -->
 </g>

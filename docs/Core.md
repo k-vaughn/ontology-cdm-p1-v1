@@ -2,9 +2,9 @@
 
 This ontology specifies the foundation-level concepts that are used by all other patterns of the city data model.
 
-This pattern imports the following patterns:
+This pattern imports the following files:
 
-- time
+- [http://www.w3.org/2006/time#](http://www.w3.org/2006/time#)
 
 This pattern consists of the following classes:
 

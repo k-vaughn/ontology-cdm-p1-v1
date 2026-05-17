@@ -14,41 +14,44 @@
 <!-- CardinalityMeasure -->
 <g id="node1" class="node">
 <title>CardinalityMeasure</title>
-<g id="a_node1"><a xlink:href="../CardinalityMeasure.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="35.62,-25.88 35.62,-42.12 141.88,-42.12 141.88,-25.88 35.62,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="36.62" y="-29.73" font-family="Arial" font-size="12.00">CardinalityMeasure</text>
-<polygon fill="none" stroke="black" points="34.62,-24.88 34.62,-43.12 142.88,-43.12 142.88,-24.88 34.62,-24.88"/>
+<g id="a_node1"><a xlink:href="../CardinalityMeasure" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="35.62,-81.88 35.62,-98.12 141.88,-98.12 141.88,-81.88 35.62,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="36.62" y="-85.72" font-family="Arial" font-size="12.00">CardinalityMeasure</text>
+<polygon fill="none" stroke="black" points="34.62,-80.88 34.62,-99.12 142.88,-99.12 142.88,-80.88 34.62,-80.88"/>
 </a>
 </g>
 </g>
 <!-- CityUnitsThing -->
 <g id="node3" class="node">
 <title>CityUnitsThing</title>
-<g id="a_node3"><a xlink:href="../CityUnitsThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-97.88 1,-114.12 82.5,-114.12 82.5,-97.88 1,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-101.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
-<polygon fill="none" stroke="black" points="0,-96.88 0,-115.12 83.5,-115.12 83.5,-96.88 0,-96.88"/>
+<g id="a_node3"><a xlink:href="../CityUnitsThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-9.88 1,-26.12 82.5,-26.12 82.5,-9.88 1,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-13.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
+<polygon fill="none" stroke="black" points="0,-8.88 0,-27.12 83.5,-27.12 83.5,-8.88 0,-8.88"/>
 </a>
 </g>
 </g>
 <!-- CardinalityMeasure&#45;&gt;CityUnitsThing -->
 <g id="edge1" class="edge">
 <title>CardinalityMeasure&#45;&gt;CityUnitsThing</title>
-<path fill="none" stroke="black" d="M77.48,-51.79C72.07,-59.85 65.46,-69.69 59.4,-78.71"/>
-<polygon fill="none" stroke="black" points="56.64,-76.55 53.97,-86.8 62.45,-80.45 56.64,-76.55"/>
+<path fill="none" stroke="black" d="M77.37,-72.05C71.95,-63.97 65.33,-54.12 59.28,-45.11"/>
+<polygon fill="none" stroke="black" points="62.35,-43.4 53.87,-37.05 56.53,-47.3 62.35,-43.4"/>
 </g>
 <!-- i72_Measure -->
 <g id="node4" class="node">
 <title>i72_Measure</title>
-<polygon fill="lightgray" stroke="none" points="102.75,-97.88 102.75,-114.12 170.75,-114.12 170.75,-97.88 102.75,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="103.75" y="-101.72" font-family="Arial" font-size="12.00">i72:Measure</text>
-<polygon fill="none" stroke="black" points="101.75,-96.88 101.75,-115.12 171.75,-115.12 171.75,-96.88 101.75,-96.88"/>
+<g id="a_node4"><a xlink:href="https://w3id.org/citydata/21972/v1/Measure" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="102.75,-9.88 102.75,-26.12 170.75,-26.12 170.75,-9.88 102.75,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="103.75" y="-13.72" font-family="Arial" font-size="12.00">i72:Measure</text>
+<polygon fill="none" stroke="black" points="101.75,-8.88 101.75,-27.12 171.75,-27.12 171.75,-8.88 101.75,-8.88"/>
+</a>
+</g>
 </g>
 <!-- CardinalityMeasure&#45;&gt;i72_Measure -->
 <g id="edge2" class="edge">
 <title>CardinalityMeasure&#45;&gt;i72_Measure</title>
-<path fill="none" stroke="black" d="M100.26,-51.79C105.79,-59.85 112.54,-69.69 118.73,-78.71"/>
-<polygon fill="none" stroke="black" points="115.73,-80.54 124.27,-86.81 121.51,-76.58 115.73,-80.54"/>
+<path fill="none" stroke="black" d="M100.37,-72.05C105.91,-63.97 112.67,-54.12 118.84,-45.11"/>
+<polygon fill="none" stroke="black" points="121.61,-47.26 124.38,-37.04 115.84,-43.31 121.61,-47.26"/>
 </g>
 <!-- Invis -->
 </g>

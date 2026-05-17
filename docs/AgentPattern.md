@@ -2,10 +2,10 @@
 
 This ontology specifies the foundation-level concepts related to the agent pattern of the city data model.
 
-This pattern imports the following patterns:
+This pattern imports the following files:
 
-- [Generic Properties Pattern](GenericPropertiesPattern.md)
-- [Resource Pattern](ResourcePattern.md)
+- [https://w3id.org/citydata/part1/v1/GenericPropertiesPattern/](https://w3id.org/citydata/part1/v1/GenericPropertiesPattern/)
+- [https://w3id.org/citydata/part1/v1/ResourcePattern/](https://w3id.org/citydata/part1/v1/ResourcePattern/)
 
 This pattern consists of the following classes:
 

@@ -14,41 +14,44 @@
 <!-- AreaUnit -->
 <g id="node1" class="node">
 <title>AreaUnit</title>
-<g id="a_node1"><a xlink:href="../AreaUnit.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="75.12,-25.88 75.12,-42.12 124.38,-42.12 124.38,-25.88 75.12,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="76.12" y="-29.73" font-family="Arial" font-size="12.00">AreaUnit</text>
-<polygon fill="none" stroke="black" points="74.12,-24.88 74.12,-43.12 125.38,-43.12 125.38,-24.88 74.12,-24.88"/>
+<g id="a_node1"><a xlink:href="../AreaUnit" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="75.12,-81.88 75.12,-98.12 124.38,-98.12 124.38,-81.88 75.12,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="76.12" y="-85.72" font-family="Arial" font-size="12.00">AreaUnit</text>
+<polygon fill="none" stroke="black" points="74.12,-80.88 74.12,-99.12 125.38,-99.12 125.38,-80.88 74.12,-80.88"/>
 </a>
 </g>
 </g>
 <!-- CityUnitsThing -->
 <g id="node3" class="node">
 <title>CityUnitsThing</title>
-<g id="a_node3"><a xlink:href="../CityUnitsThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-97.88 1,-114.12 82.5,-114.12 82.5,-97.88 1,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-101.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
-<polygon fill="none" stroke="black" points="0,-96.88 0,-115.12 83.5,-115.12 83.5,-96.88 0,-96.88"/>
+<g id="a_node3"><a xlink:href="../CityUnitsThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-9.88 1,-26.12 82.5,-26.12 82.5,-9.88 1,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-13.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
+<polygon fill="none" stroke="black" points="0,-8.88 0,-27.12 83.5,-27.12 83.5,-8.88 0,-8.88"/>
 </a>
 </g>
 </g>
 <!-- AreaUnit&#45;&gt;CityUnitsThing -->
 <g id="edge1" class="edge">
 <title>AreaUnit&#45;&gt;CityUnitsThing</title>
-<path fill="none" stroke="black" d="M85.84,-51.79C79.02,-60.02 70.66,-70.11 63.05,-79.29"/>
-<polygon fill="none" stroke="black" points="60.44,-76.96 56.76,-86.89 65.83,-81.42 60.44,-76.96"/>
+<path fill="none" stroke="black" d="M85.71,-72.05C78.87,-63.8 70.5,-53.7 62.91,-44.54"/>
+<polygon fill="none" stroke="black" points="65.7,-42.42 56.63,-36.95 60.31,-46.89 65.7,-42.42"/>
 </g>
 <!-- i72_Unit_of_measure -->
 <g id="node4" class="node">
 <title>i72_Unit_of_measure</title>
-<polygon fill="lightgray" stroke="none" points="102.25,-97.88 102.25,-114.12 215.25,-114.12 215.25,-97.88 102.25,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="103.25" y="-101.72" font-family="Arial" font-size="12.00">i72:Unit_of_measure</text>
-<polygon fill="none" stroke="black" points="101.25,-96.88 101.25,-115.12 216.25,-115.12 216.25,-96.88 101.25,-96.88"/>
+<g id="a_node4"><a xlink:href="https://w3id.org/citydata/21972/v1/Unit_of_measure" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="102.25,-9.88 102.25,-26.12 215.25,-26.12 215.25,-9.88 102.25,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="103.25" y="-13.72" font-family="Arial" font-size="12.00">i72:Unit_of_measure</text>
+<polygon fill="none" stroke="black" points="101.25,-8.88 101.25,-27.12 216.25,-27.12 216.25,-8.88 101.25,-8.88"/>
+</a>
+</g>
 </g>
 <!-- AreaUnit&#45;&gt;i72_Unit_of_measure -->
 <g id="edge2" class="edge">
 <title>AreaUnit&#45;&gt;i72_Unit_of_measure</title>
-<path fill="none" stroke="black" d="M113.9,-51.79C120.84,-60.02 129.35,-70.11 137.08,-79.29"/>
-<polygon fill="none" stroke="black" points="134.37,-81.51 143.49,-86.9 139.72,-77 134.37,-81.51"/>
+<path fill="none" stroke="black" d="M114.03,-72.05C120.99,-63.8 129.5,-53.7 137.23,-44.54"/>
+<polygon fill="none" stroke="black" points="139.86,-46.85 143.62,-36.95 134.5,-42.34 139.86,-46.85"/>
 </g>
 <!-- Invis -->
 </g>

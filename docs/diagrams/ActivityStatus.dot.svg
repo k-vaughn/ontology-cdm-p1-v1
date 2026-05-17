@@ -14,28 +14,28 @@
 <!-- ActivityStatus -->
 <g id="node1" class="node">
 <title>ActivityStatus</title>
-<g id="a_node1"><a xlink:href="../ActivityStatus.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-25.88 1,-42.12 75,-42.12 75,-25.88 1,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-29.73" font-family="Arial" font-size="12.00">ActivityStatus</text>
-<polygon fill="none" stroke="black" points="0,-24.88 0,-43.12 76,-43.12 76,-24.88 0,-24.88"/>
+<g id="a_node1"><a xlink:href="../ActivityStatus" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-81.88 1,-98.12 75,-98.12 75,-81.88 1,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-85.72" font-family="Arial" font-size="12.00">ActivityStatus</text>
+<polygon fill="none" stroke="black" points="0,-80.88 0,-99.12 76,-99.12 76,-80.88 0,-80.88"/>
 </a>
 </g>
 </g>
 <!-- ActivityThing -->
 <g id="node3" class="node">
 <title>ActivityThing</title>
-<g id="a_node3"><a xlink:href="../ActivityThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="2.5,-97.88 2.5,-114.12 73.5,-114.12 73.5,-97.88 2.5,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="3.5" y="-101.72" font-family="Arial" font-size="12.00">ActivityThing</text>
-<polygon fill="none" stroke="black" points="1.5,-96.88 1.5,-115.12 74.5,-115.12 74.5,-96.88 1.5,-96.88"/>
+<g id="a_node3"><a xlink:href="../ActivityThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="2.5,-9.88 2.5,-26.12 73.5,-26.12 73.5,-9.88 2.5,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="3.5" y="-13.72" font-family="Arial" font-size="12.00">ActivityThing</text>
+<polygon fill="none" stroke="black" points="1.5,-8.88 1.5,-27.12 74.5,-27.12 74.5,-8.88 1.5,-8.88"/>
 </a>
 </g>
 </g>
 <!-- ActivityStatus&#45;&gt;ActivityThing -->
 <g id="edge1" class="edge">
 <title>ActivityStatus&#45;&gt;ActivityThing</title>
-<path fill="none" stroke="black" d="M38,-51.79C38,-59.25 38,-68.24 38,-76.69"/>
-<polygon fill="none" stroke="black" points="34.5,-76.54 38,-86.54 41.5,-76.54 34.5,-76.54"/>
+<path fill="none" stroke="black" d="M38,-72.05C38,-64.57 38,-55.58 38,-47.14"/>
+<polygon fill="none" stroke="black" points="41.5,-47.3 38,-37.3 34.5,-47.3 41.5,-47.3"/>
 </g>
 <!-- Invis -->
 </g>

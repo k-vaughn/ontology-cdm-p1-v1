@@ -2,9 +2,9 @@
 
 This ontology specifies the foundation-level concepts related to the change pattern of the city data model.
 
-This pattern imports the following patterns:
+This pattern imports the following files:
 
-- [Core](Core.md)
+- [https://w3id.org/citydata/part1/v1/Core/](https://w3id.org/citydata/part1/v1/Core/)
 
 This pattern consists of the following classes:
 

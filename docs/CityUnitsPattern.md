@@ -2,10 +2,10 @@
 
 This ontology specifies the foundation-level concepts related to the city units pattern of the city data model.
 
-This pattern imports the following patterns:
+This pattern imports the following files:
 
-- [Core](Core.md)
-- v1
+- [https://w3id.org/citydata/21972/v1/](https://w3id.org/citydata/21972/v1/)
+- [https://w3id.org/citydata/part1/v1/Core/](https://w3id.org/citydata/part1/v1/Core/)
 
 This pattern consists of the following classes:
 

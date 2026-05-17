@@ -14,28 +14,28 @@
 <!-- ReleaseState -->
 <g id="node1" class="node">
 <title>ReleaseState</title>
-<g id="a_node1"><a xlink:href="../ReleaseState.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="27.25,-25.88 27.25,-42.12 102,-42.12 102,-25.88 27.25,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="28.25" y="-29.73" font-family="Arial" font-size="12.00">ReleaseState</text>
-<polygon fill="none" stroke="black" points="26.25,-24.88 26.25,-43.12 103,-43.12 103,-24.88 26.25,-24.88"/>
+<g id="a_node1"><a xlink:href="../ReleaseState" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="27.25,-81.88 27.25,-98.12 102,-98.12 102,-81.88 27.25,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="28.25" y="-85.72" font-family="Arial" font-size="12.00">ReleaseState</text>
+<polygon fill="none" stroke="black" points="26.25,-80.88 26.25,-99.12 103,-99.12 103,-80.88 26.25,-80.88"/>
 </a>
 </g>
 </g>
 <!-- TerminalResourceState -->
 <g id="node3" class="node">
 <title>TerminalResourceState</title>
-<g id="a_node3"><a xlink:href="../TerminalResourceState.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-97.88 1,-114.12 128.25,-114.12 128.25,-97.88 1,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-101.72" font-family="Arial" font-size="12.00">TerminalResourceState</text>
-<polygon fill="none" stroke="black" points="0,-96.88 0,-115.12 129.25,-115.12 129.25,-96.88 0,-96.88"/>
+<g id="a_node3"><a xlink:href="../TerminalResourceState" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-9.88 1,-26.12 128.25,-26.12 128.25,-9.88 1,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-13.72" font-family="Arial" font-size="12.00">TerminalResourceState</text>
+<polygon fill="none" stroke="black" points="0,-8.88 0,-27.12 129.25,-27.12 129.25,-8.88 0,-8.88"/>
 </a>
 </g>
 </g>
 <!-- ReleaseState&#45;&gt;TerminalResourceState -->
 <g id="edge1" class="edge">
 <title>ReleaseState&#45;&gt;TerminalResourceState</title>
-<path fill="none" stroke="black" d="M64.62,-51.79C64.62,-59.25 64.62,-68.24 64.62,-76.69"/>
-<polygon fill="none" stroke="black" points="61.13,-76.54 64.63,-86.54 68.13,-76.54 61.13,-76.54"/>
+<path fill="none" stroke="black" d="M64.62,-72.05C64.62,-64.57 64.62,-55.58 64.62,-47.14"/>
+<polygon fill="none" stroke="black" points="68.13,-47.3 64.63,-37.3 61.13,-47.3 68.13,-47.3"/>
 </g>
 <!-- Invis -->
 </g>

@@ -14,41 +14,44 @@
 <!-- AmountOfMoney -->
 <g id="node1" class="node">
 <title>AmountOfMoney</title>
-<g id="a_node1"><a xlink:href="../AmountOfMoney.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="43.12,-25.88 43.12,-42.12 134.38,-42.12 134.38,-25.88 43.12,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="44.12" y="-29.73" font-family="Arial" font-size="12.00">AmountOfMoney</text>
-<polygon fill="none" stroke="black" points="42.12,-24.88 42.12,-43.12 135.38,-43.12 135.38,-24.88 42.12,-24.88"/>
+<g id="a_node1"><a xlink:href="../AmountOfMoney" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="43.12,-81.88 43.12,-98.12 134.38,-98.12 134.38,-81.88 43.12,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="44.12" y="-85.72" font-family="Arial" font-size="12.00">AmountOfMoney</text>
+<polygon fill="none" stroke="black" points="42.12,-80.88 42.12,-99.12 135.38,-99.12 135.38,-80.88 42.12,-80.88"/>
 </a>
 </g>
 </g>
 <!-- CityUnitsThing -->
 <g id="node3" class="node">
 <title>CityUnitsThing</title>
-<g id="a_node3"><a xlink:href="../CityUnitsThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-97.88 1,-114.12 82.5,-114.12 82.5,-97.88 1,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-101.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
-<polygon fill="none" stroke="black" points="0,-96.88 0,-115.12 83.5,-115.12 83.5,-96.88 0,-96.88"/>
+<g id="a_node3"><a xlink:href="../CityUnitsThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-9.88 1,-26.12 82.5,-26.12 82.5,-9.88 1,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-13.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
+<polygon fill="none" stroke="black" points="0,-8.88 0,-27.12 83.5,-27.12 83.5,-8.88 0,-8.88"/>
 </a>
 </g>
 </g>
 <!-- AmountOfMoney&#45;&gt;CityUnitsThing -->
 <g id="edge1" class="edge">
 <title>AmountOfMoney&#45;&gt;CityUnitsThing</title>
-<path fill="none" stroke="black" d="M77.48,-51.79C72.07,-59.85 65.46,-69.69 59.4,-78.71"/>
-<polygon fill="none" stroke="black" points="56.64,-76.55 53.97,-86.8 62.45,-80.45 56.64,-76.55"/>
+<path fill="none" stroke="black" d="M77.37,-72.05C71.95,-63.97 65.33,-54.12 59.28,-45.11"/>
+<polygon fill="none" stroke="black" points="62.35,-43.4 53.87,-37.05 56.53,-47.3 62.35,-43.4"/>
 </g>
 <!-- i72_Quantity -->
 <g id="node4" class="node">
 <title>i72_Quantity</title>
-<polygon fill="lightgray" stroke="none" points="102.88,-97.88 102.88,-114.12 168.62,-114.12 168.62,-97.88 102.88,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="103.88" y="-101.72" font-family="Arial" font-size="12.00">i72:Quantity</text>
-<polygon fill="none" stroke="black" points="101.88,-96.88 101.88,-115.12 169.62,-115.12 169.62,-96.88 101.88,-96.88"/>
+<g id="a_node4"><a xlink:href="https://w3id.org/citydata/21972/v1/Quantity" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="102.88,-9.88 102.88,-26.12 168.62,-26.12 168.62,-9.88 102.88,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="103.88" y="-13.72" font-family="Arial" font-size="12.00">i72:Quantity</text>
+<polygon fill="none" stroke="black" points="101.88,-8.88 101.88,-27.12 169.62,-27.12 169.62,-8.88 101.88,-8.88"/>
+</a>
+</g>
 </g>
 <!-- AmountOfMoney&#45;&gt;i72_Quantity -->
 <g id="edge2" class="edge">
 <title>AmountOfMoney&#45;&gt;i72_Quantity</title>
-<path fill="none" stroke="black" d="M100.02,-51.79C105.43,-59.85 112.04,-69.69 118.1,-78.71"/>
-<polygon fill="none" stroke="black" points="115.05,-80.45 123.53,-86.8 120.86,-76.55 115.05,-80.45"/>
+<path fill="none" stroke="black" d="M100.13,-72.05C105.55,-63.97 112.17,-54.12 118.22,-45.11"/>
+<polygon fill="none" stroke="black" points="120.97,-47.3 123.63,-37.05 115.15,-43.4 120.97,-47.3"/>
 </g>
 <!-- Invis -->
 </g>

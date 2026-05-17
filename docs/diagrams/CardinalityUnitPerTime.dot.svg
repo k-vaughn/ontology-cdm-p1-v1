@@ -14,41 +14,44 @@
 <!-- CardinalityUnitPerTime -->
 <g id="node1" class="node">
 <title>CardinalityUnitPerTime</title>
-<g id="a_node1"><a xlink:href="../CardinalityUnitPerTime.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="31.5,-25.88 31.5,-42.12 158,-42.12 158,-25.88 31.5,-25.88"/>
-<text xml:space="preserve" text-anchor="start" x="32.5" y="-29.73" font-family="Arial" font-size="12.00">CardinalityUnitPerTime</text>
-<polygon fill="none" stroke="black" points="30.5,-24.88 30.5,-43.12 159,-43.12 159,-24.88 30.5,-24.88"/>
+<g id="a_node1"><a xlink:href="../CardinalityUnitPerTime" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="31.5,-81.88 31.5,-98.12 158,-98.12 158,-81.88 31.5,-81.88"/>
+<text xml:space="preserve" text-anchor="start" x="32.5" y="-85.72" font-family="Arial" font-size="12.00">CardinalityUnitPerTime</text>
+<polygon fill="none" stroke="black" points="30.5,-80.88 30.5,-99.12 159,-99.12 159,-80.88 30.5,-80.88"/>
 </a>
 </g>
 </g>
 <!-- CityUnitsThing -->
 <g id="node3" class="node">
 <title>CityUnitsThing</title>
-<g id="a_node3"><a xlink:href="../CityUnitsThing.md" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgray" stroke="none" points="1,-97.88 1,-114.12 82.5,-114.12 82.5,-97.88 1,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="2" y="-101.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
-<polygon fill="none" stroke="black" points="0,-96.88 0,-115.12 83.5,-115.12 83.5,-96.88 0,-96.88"/>
+<g id="a_node3"><a xlink:href="../CityUnitsThing" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="1,-9.88 1,-26.12 82.5,-26.12 82.5,-9.88 1,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="2" y="-13.72" font-family="Arial" font-size="12.00">CityUnitsThing</text>
+<polygon fill="none" stroke="black" points="0,-8.88 0,-27.12 83.5,-27.12 83.5,-8.88 0,-8.88"/>
 </a>
 </g>
 </g>
 <!-- CardinalityUnitPerTime&#45;&gt;CityUnitsThing -->
 <g id="edge1" class="edge">
 <title>CardinalityUnitPerTime&#45;&gt;CityUnitsThing</title>
-<path fill="none" stroke="black" d="M82.04,-51.79C75.87,-59.93 68.32,-69.9 61.43,-79"/>
-<polygon fill="none" stroke="black" points="58.74,-76.76 55.49,-86.85 64.32,-80.99 58.74,-76.76"/>
+<path fill="none" stroke="black" d="M81.92,-72.05C75.74,-63.89 68.18,-53.91 61.3,-44.82"/>
+<polygon fill="none" stroke="black" points="64.2,-42.86 55.38,-37 58.62,-47.08 64.2,-42.86"/>
 </g>
 <!-- i72_Unit_division -->
 <g id="node4" class="node">
 <title>i72_Unit_division</title>
-<polygon fill="lightgray" stroke="none" points="102.12,-97.88 102.12,-114.12 193.38,-114.12 193.38,-97.88 102.12,-97.88"/>
-<text xml:space="preserve" text-anchor="start" x="103.12" y="-101.72" font-family="Arial" font-size="12.00">i72:Unit_division</text>
-<polygon fill="none" stroke="black" points="101.12,-96.88 101.12,-115.12 194.38,-115.12 194.38,-96.88 101.12,-96.88"/>
+<g id="a_node4"><a xlink:href="https://w3id.org/citydata/21972/v1/Unit_division" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgray" stroke="none" points="102.12,-9.88 102.12,-26.12 193.38,-26.12 193.38,-9.88 102.12,-9.88"/>
+<text xml:space="preserve" text-anchor="start" x="103.12" y="-13.72" font-family="Arial" font-size="12.00">i72:Unit_division</text>
+<polygon fill="none" stroke="black" points="101.12,-8.88 101.12,-27.12 194.38,-27.12 194.38,-8.88 101.12,-8.88"/>
+</a>
+</g>
 </g>
 <!-- CardinalityUnitPerTime&#45;&gt;i72_Unit_division -->
 <g id="edge2" class="edge">
 <title>CardinalityUnitPerTime&#45;&gt;i72_Unit_division</title>
-<path fill="none" stroke="black" d="M107.46,-51.79C113.63,-59.93 121.18,-69.9 128.07,-79"/>
-<polygon fill="none" stroke="black" points="125.18,-80.99 134.01,-86.85 130.76,-76.76 125.18,-80.99"/>
+<path fill="none" stroke="black" d="M107.58,-72.05C113.76,-63.89 121.32,-53.91 128.2,-44.82"/>
+<polygon fill="none" stroke="black" points="130.88,-47.08 134.12,-37 125.3,-42.86 130.88,-47.08"/>
 </g>
 <!-- Invis -->
 </g>

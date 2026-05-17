@@ -2,10 +2,10 @@
 
 This ontology specifies the foundation-level concepts related to the resource pattern of the city data model.
 
-This pattern imports the following patterns:
+This pattern imports the following files:
 
-- [Activity Pattern](ActivityPattern.md)
-- [City Units Pattern](CityUnitsPattern.md)
+- [https://w3id.org/citydata/part1/v1/ActivityPattern/](https://w3id.org/citydata/part1/v1/ActivityPattern/)
+- [https://w3id.org/citydata/part1/v1/CityUnitsPattern/](https://w3id.org/citydata/part1/v1/CityUnitsPattern/)
 
 This pattern consists of the following classes:
 
