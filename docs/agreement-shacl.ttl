@@ -1,0 +1,16 @@
+@prefix cdm1: <https://w3id.org/citydata/part1/v1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/citydata/part1/v1/AgreementPattern/shacl>
+    rdf:type owl:Ontology ;
+    dcterms:title "City Data Model Part 1 - Agreement - SHACL constraints" ;
+    skos:definition "SHACL validation shapes for the Agreement pattern module." ;
+    vann:preferredNamespaceUri "https://w3id.org/citydata/part1/v1/" ;
+    vann:preferredNamespacePrefix "cdm1" ;
+    owl:imports <https://w3id.org/citydata/part1/v1/AgreementPattern/> .

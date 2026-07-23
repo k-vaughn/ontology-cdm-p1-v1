@@ -1,0 +1,55 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix cdm1: <https://w3id.org/citydata/part1/v1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@base <https://w3id.org/citydata/part1/v1/> .
+<https://w3id.org/citydata/part1/v1/Core>  rdf:type  owl:Ontology;
+        dcterms:title                  "Information technology - City data model - Part 1: Foundation level concepts - Core";
+        dcterms:alternative            "CDM Core";
+        skos:definition                "This ontology specifies the foundation-level concepts that are used by all other patterns of the city data model.";
+        vann:preferredNamespaceUri     "https://w3id.org/citydata/part1/v1/";
+        vann:preferredNamespacePrefix  "cdm1";
+        dcterms:creator                "Megan Katsumi";
+        dcterms:creator                "Mark Fox";
+        dcterms:creator                "Kenneth Vaughn";
+        dcterms:modified               "2026-02-12"^^xsd:date;
+        owl:versionInfo                "1.3.0";
+        owl:versionIRI                 <Core/r3.0>;
+        cc:license                     "http://creativecommons.org/licenses/by/4.0/";
+        owl:imports                    <http://www.w3.org/2006/time#> .
+
+cdm1:mainModule  rdf:type    owl:AnnotationProperty;
+        skos:definition  "Identifies whether an ontology file is the main ontology file within a directory.";
+        rdfs:range       xsd:boolean .
+
+cdm1:CdmObjectProperty  rdf:type  owl:ObjectProperty;
+        skos:definition  "Added for organizational purposes, to identify all object properties defined in the City Data Model." .
+
+cdm1:FoundationalCdmObjectProperty
+        rdf:type            owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:CdmObjectProperty;
+        skos:definition     "Added for organizational purposes, to identify all foundational object properties defined in the City Data Model." .
+
+cdm1:CdmDataProperty  rdf:type  owl:DatatypeProperty;
+        skos:definition  "Added for organizational purposes, to identify all data properties defined in the City Data Model." .
+
+cdm1:FoundationalCdmDataProperty
+        rdf:type            owl:DatatypeProperty;
+        rdfs:subPropertyOf  cdm1:CdmDataProperty;
+        skos:definition     "Added for organizational purposes, to identify data properties defined in the Foundation-level CDM ontology." .
+
+cdm1:CdmThing  rdf:type      owl:Class;
+        skos:definition  "Added for organizational purposes, to identify all classes defined in the City Data Model." .
+
+cdm1:FoundationalCdmThing
+        rdf:type         owl:Class;
+        skos:definition  "Added for organizational purposes, to identify all classes defined in the Foundation-level CDM ontology.";
+        rdfs:subClassOf  cdm1:CdmThing .

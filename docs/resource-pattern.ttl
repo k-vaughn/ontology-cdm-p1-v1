@@ -1,0 +1,254 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix cdm1: <https://w3id.org/citydata/part1/v1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix i72: <https://w3id.org/citydata/21972/v1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@base <https://w3id.org/citydata/part1/v1/> .
+<https://w3id.org/citydata/part1/v1/ResourcePattern/>  rdf:type  owl:Ontology;
+        dcterms:title                  "Information technology - City data model - Part 1: Foundation level concepts - Resource Pattern";
+        dcterms:alternative            "CDM Resource Pattern";
+        skos:definition                "This ontology specifies the foundation-level concepts related to the resource pattern of the city data model.";
+        vann:preferredNamespaceUri     "https://w3id.org/citydata/part1/v1/";
+        vann:preferredNamespacePrefix  "cdm1";
+        dcterms:creator                "Megan Katsumi";
+        dcterms:creator                "Mark Fox";
+        dcterms:creator                "Kenneth Vaughn";
+        rdfs:comment                   "The prior version of this ontology used a different ontology IRI. This update remains semantically consistent with the version adopted as ISO 5087-1:2023.";
+        owl:priorVersion               <https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Resource/>;
+        dcterms:modified               "2026-02-12"^^xsd:date;
+        owl:versionInfo                "1.3.0";
+        owl:versionIRI                 <ResourcePattern/r3.0/>;
+        cc:license                     "http://creativecommons.org/licenses/by/4.0/";
+        owl:imports <https://w3id.org/citydata/part1/v1/ActivityPattern/> ;
+        owl:imports <https://w3id.org/citydata/part1/v1/CityUnitsPattern/> .
+
+cdm1:ResourceObjectProperty
+        rdf:type            owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:FoundationalCdmObjectProperty;
+        skos:definition     "Added for organizational purposes, to identify all resource object properties defined in the City Data Model." .
+
+cdm1:capacityInUse  rdf:type    owl:ObjectProperty;
+        skos:definition     "Identifies the portion of capacity in use, by some Activity(s).";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        rdf:type            owl:FunctionalProperty;
+        rdfs:domain         cdm1:Resource;
+        rdfs:range          i72:Quantity .
+
+cdm1:consumedBy  rdf:type       owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:preconditionOf .
+
+cdm1:forResource  rdf:type      owl:ObjectProperty;
+        skos:definition     "Specifies the Resource that is allocated.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        rdfs:domain         cdm1:PlannedAllocation;
+        rdfs:range          cdm1:Resource .
+
+cdm1:forState  rdf:type         owl:ObjectProperty;
+        skos:definition     "Specifies the State to which the Resource is allocated.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        rdfs:domain         cdm1:PlannedAllocation;
+        rdfs:range          cdm1:State;
+        owl:inverseOf       cdm1:hasAllocation .
+
+cdm1:hasAllocation  rdf:type    owl:ObjectProperty;
+        skos:definition     "Specifies a Planned Allocation for the Resource. This indicates a State and time Interval to which the Resource has been allocated.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty .
+
+cdm1:hasAsset  rdf:type         owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty .
+
+cdm1:hasAvailableCapacity
+        rdf:type            owl:ObjectProperty;
+        skos:definition     "identifies the Quantity that specifies how much of the Resource is available for use.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        rdfs:domain         cdm1:Resource;
+        rdfs:range          i72:Quantity .
+
+cdm1:hasCapacity  rdf:type      owl:ObjectProperty;
+        skos:definition     "Identifies the Quantity that specifies how much of the Resource exists, e.g. its volume, if it is liquid; how much it can hold, if it is an container.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        rdf:type            owl:FunctionalProperty;
+        rdfs:domain         cdm1:Resource;
+        rdfs:range          i72:Quantity .
+
+cdm1:hasOwner  rdf:type         owl:ObjectProperty;
+        skos:definition     "A Resource may have some owner. The owner of a resource is subject to change over time.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        owl:inverseOf       cdm1:ownedBy;
+        rdfs:domain         cdm1:Resource .
+
+cdm1:hasQuantity  rdf:type      owl:ObjectProperty;
+        skos:definition     "Specifies the Quantity of the Resource that participates in the State, if applicable.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        rdfs:domain         cdm1:PlannedAllocation;
+        rdfs:range          i72:Quantity .
+
+cdm1:hasResource  rdf:type      owl:ObjectProperty;
+        skos:definition     "Specifies a Resource that participates in the State. This identifies the condition of the object that plays a resource role (i.e. is used, consumed, etc.) when the state’s status is active.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        owl:inverseOf       cdm1:resourceOf;
+        rdfs:domain         cdm1:TerminalResourceState;
+        rdfs:range          cdm1:Resource .
+
+cdm1:ownedBy  rdf:type          owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty .
+
+cdm1:participatesIn  rdf:type   owl:ObjectProperty;
+        skos:definition     "Identifies the Activity that the Resource is being used, consumed, produced, or released by.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty;
+        rdfs:domain         cdm1:Resource;
+        rdfs:range          cdm1:Activity .
+
+cdm1:resourceOf  rdf:type       owl:ObjectProperty;
+        skos:definition     "identifies what State the agent may be a resource of. This is specified using the Resource pattern, where the Agent would be considered to be a resource from the perspective of an Activity that uses it in some way. For example, a construction activity may use some persons(s) and those persons would be considered a Resource for that Activity.";
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty .
+
+cdm1:usedBy  rdf:type           owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:preconditionOf;
+        rdfs:subPropertyOf  cdm1:ResourceObjectProperty .
+
+cdm1:ResourceThing  rdf:type  owl:Class;
+        skos:definition  "Added for organizational purposes, to identify all classes defined in the Resource ontology.";
+        rdfs:subClassOf  cdm1:FoundationalCdmThing .
+
+cdm1:ConsumeState  rdf:type  owl:Class;
+        skos:definition  "Identifies a Resource and Quantity it consumes. The Quantity is removed from the Resource.";
+        rdfs:subClassOf  cdm1:TerminalResourceState .
+
+cdm1:DivisibleResource  rdf:type  owl:Class;
+        skos:definition  "A Resource that can be divided for use or consumption between multiple Activities.";
+        rdfs:subClassOf  cdm1:Resource .
+
+cdm1:NonDivisibleResource
+        rdf:type         owl:Class;
+        skos:definition  "A Resource that can only be used for a single Activity at once - even if it isn't fully utilized.";
+        rdfs:subClassOf  cdm1:Resource .
+
+cdm1:PlannedAllocation  rdf:type  owl:Class;
+        skos:definition  "Specifies the planned allocation of a resource to an activity via a state.\n        Note that Allocation is a Manifestation as the allocation may change over time."@en;
+        rdfs:subClassOf  cdm1:Manifestation;
+        rdfs:subClassOf  cdm1:ResourceThing;
+        rdfs:subClassOf  _:b0 .
+
+_:b0    rdf:type                  owl:Restriction;
+        owl:onProperty            time:hasTime;
+        owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass               time:TemporalEntity .
+
+cdm1:PlannedAllocation  rdfs:subClassOf  _:b1 .
+
+_:b1    rdf:type                  owl:Restriction;
+        owl:onProperty            cdm1:forResource;
+        owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass               cdm1:Resource .
+
+cdm1:PlannedAllocation  rdfs:subClassOf  _:b2 .
+
+_:b2    rdf:type                  owl:Restriction;
+        owl:onProperty            cdm1:forState;
+        owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass               cdm1:State .
+
+cdm1:PlannedAllocation  rdfs:subClassOf  _:b3 .
+
+_:b3    rdf:type                  owl:Restriction;
+        owl:onProperty            cdm1:hasQuantity;
+        owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass               i72:Quantity .
+
+cdm1:ProduceState  rdf:type  owl:Class;
+        skos:definition  "Identifies a Resource and Quantity it produces.";
+        rdfs:subClassOf  cdm1:TerminalResourceState .
+
+cdm1:ReleaseState  rdf:type  owl:Class;
+        skos:definition  "Identifies a Resource and Quantity it releases (after using).";
+        rdfs:subClassOf  cdm1:TerminalResourceState .
+
+cdm1:Resource  rdf:type      owl:Class;
+        skos:definition  "A Resource is a generic representation of some Thing that can be \"used\" in an Activity. \n        A Resource may have some Location, amount or availability, according to the definition of the Manifestation or TimeVaryingEntity. \n        A Resource must be classified as some Resource Type.\n        A Resource may participate in some Activity Occurrence. In other words, it links to the Activity that the Resource is being used/consumed/produced/released at the time of the manifestation.\n        A specific Resource may be used in or consumed in some activity occurrence.";
+        rdfs:subClassOf  cdm1:ResourceThing;
+        rdfs:subClassOf  _:b4 .
+
+_:b4    rdf:type           owl:Restriction;
+        owl:onProperty     cdm1:hasLocation;
+        owl:allValuesFrom  cdm1:Location .
+
+cdm1:Resource  rdfs:subClassOf  _:b5 .
+
+_:b5    rdf:type           owl:Restriction;
+        owl:onProperty     cdm1:hasAllocation;
+        owl:allValuesFrom  cdm1:PlannedAllocation .
+
+cdm1:Resource  rdfs:subClassOf  _:b6 .
+
+_:b6    rdf:type                     owl:Restriction;
+        owl:onProperty               cdm1:participatesIn;
+        owl:minQualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass                  cdm1:Activity .
+
+cdm1:Resource  rdfs:subClassOf  _:b7 .
+
+_:b7    rdf:type                  owl:Restriction;
+        owl:onProperty            cdm1:capacityInUse;
+        owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass               i72:Quantity .
+
+cdm1:Resource  rdfs:subClassOf  _:b8 .
+
+_:b8    rdf:type                  owl:Restriction;
+        owl:onProperty            cdm1:hasAvailableCapacity;
+        owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass               i72:Quantity .
+
+cdm1:Resource  rdfs:subClassOf  _:b9 .
+
+_:b9    rdf:type                  owl:Restriction;
+        owl:onProperty            cdm1:hasCapacity;
+        owl:qualifiedCardinality  "1"^^xsd:nonNegativeInteger;
+        owl:onClass               i72:Quantity .
+
+cdm1:Resource  owl:disjointUnionOf  _:b10 .
+
+_:b10   rdf:first  cdm1:DivisibleResource;
+        rdf:rest   _:b11 .
+
+_:b11   rdf:first  cdm1:NonDivisibleResource;
+        rdf:rest   rdf:nil .
+
+cdm1:TerminalResourceState
+        rdf:type         owl:Class;
+        skos:definition  "";
+        rdfs:subClassOf  cdm1:TerminalState;
+        rdfs:subClassOf  cdm1:ResourceThing;
+        rdfs:subClassOf  _:b12 .
+
+_:b12   rdf:type           owl:Restriction;
+        owl:onProperty     cdm1:hasAllocation;
+        owl:allValuesFrom  cdm1:PlannedAllocation .
+
+cdm1:TerminalResourceState
+        rdfs:subClassOf  _:b13 .
+
+_:b13   rdf:type           owl:Restriction;
+        owl:onProperty     cdm1:hasQuantity;
+        owl:allValuesFrom  i72:Quantity .
+
+cdm1:TerminalResourceState
+        rdfs:subClassOf  _:b14 .
+
+_:b14   rdf:type           owl:Restriction;
+        owl:onProperty     cdm1:hasResource;
+        owl:allValuesFrom  cdm1:Resource .
+
+cdm1:UseState  rdf:type      owl:Class;
+        skos:definition  "Identifies a Resource and Quantity it uses (without consuming).";
+        rdfs:subClassOf  cdm1:TerminalResourceState .

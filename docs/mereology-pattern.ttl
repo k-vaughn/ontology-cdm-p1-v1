@@ -1,0 +1,76 @@
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix cdm1: <https://w3id.org/citydata/part1/v1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+@base <https://w3id.org/citydata/part1/v1/> .
+<https://w3id.org/citydata/part1/v1/MereologyPattern/>  rdf:type  owl:Ontology;
+        dcterms:title                  "Information technology - City data model - Part 1: Foundation level concepts - Mereology Pattern";
+        dcterms:alternative            "CDM Mereology Pattern";
+        skos:definition                "This ontology specifies the foundation-level concepts related to the mereology pattern of the city data model.";
+        vann:preferredNamespaceUri     "https://w3id.org/citydata/part1/v1/";
+        vann:preferredNamespacePrefix  "cdm1";
+        dcterms:creator                "Megan Katsumi";
+        dcterms:creator                "Mark Fox";
+        dcterms:creator                "Kenneth Vaughn";
+        rdfs:comment                   "The prior version of this ontology used a different ontology IRI. This update remains semantically consistent with the version adopted as ISO 5087-1:2023.";
+        owl:priorVersion               <https://standards.iso.org/iso-iec/5087/-1/ed-1/en/ontology/Mereology/>;
+        dcterms:modified               "2026-02-12"^^xsd:date;
+        owl:versionInfo                "1.3.0";
+        owl:versionIRI                 <MereologyPattern/r3.0/>;
+        cc:license                     "http://creativecommons.org/licenses/by/4.0/";
+        owl:imports <https://w3id.org/citydata/part1/v1/Core> .
+
+cdm1:MereologyObjectProperty
+        rdf:type            owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:FoundationalCdmObjectProperty;
+        skos:definition     "Added for organizational purposes, to identify all mereology object properties defined in the City Data Model." .
+
+cdm1:aggregateOf  rdf:type      owl:ObjectProperty;
+        skos:definition     "One object within a collection.";
+        rdfs:subPropertyOf  cdm1:CityUnitObjectProperty;
+        owl:inverseOf       cdm1:aggregationOf .
+
+cdm1:aggregationOf  rdf:type    owl:ObjectProperty;
+        skos:definition     "A collection of objects.";
+        rdfs:subPropertyOf  cdm1:LocationObjectProperty .
+
+cdm1:aggregateOver  rdf:type        owl:ObjectProperty;
+        owl:equivalentProperty  cdm1:aggregationOf;
+        owl:deprecated          true;
+        rdfs:subPropertyOf      cdm1:FoundationalCdmObjectProperty .
+
+cdm1:componentOf  rdf:type      owl:ObjectProperty;
+        rdfs:subPropertyOf  cdm1:properPartOf;
+        owl:inverseOf       cdm1:hasComponent;
+        skos:definition     "Specifies a part-whole relationship between objects where the component is a part that is defined based on actual boundaries. The parts are often also defined according to distinct functions. For example, a headlight is a componentOf a car. " .
+
+cdm1:hasComponent  rdf:type     owl:ObjectProperty;
+        skos:definition     "Specifies a part-whole relationship between objects where the component is a part that is defined based on actual boundaries. The parts are often also defined according to distinct functions. For example, a car hasComponent headlight.";
+        rdfs:subPropertyOf  cdm1:hasProperPart .
+
+cdm1:hasProperPart  rdf:type    owl:ObjectProperty;
+        skos:definition     "Specifies a part-whole relationship between objects where an object cannot be part of itself.";
+        rdfs:subPropertyOf  cdm1:MereologyObjectProperty;
+        owl:inverseOf       cdm1:properPartOf .
+
+cdm1:immediateComponentOf
+        rdf:type            owl:ObjectProperty;
+        skos:definition     "Specifies a componentOf relationship where the if x immediateComponentOf y, then there does not exist a z where x immediateComponentOf z immediateComponentOf y.";
+        rdfs:subPropertyOf  cdm1:componentOf .
+
+cdm1:partOf  rdf:type           owl:ObjectProperty;
+        skos:definition     "Specifies a part-whole relationship between objects";
+        rdfs:subPropertyOf  cdm1:MereologyObjectProperty .
+
+cdm1:properPartOf  rdf:type     owl:ObjectProperty;
+        skos:definition     "Specifies a part-whole relationship between objects where an object cannot be part of itself";
+        rdfs:subPropertyOf  cdm1:partOf .

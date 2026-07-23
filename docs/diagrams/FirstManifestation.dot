@@ -1,0 +1,29 @@
+// Diagram for FirstManifestation
+digraph {
+	graph [overlap=false rankdir=TB splines=true]
+	node [fontname=Arial fontsize=12 margin=0 shape=none]
+	edge [fontname=Arial fontsize=11]
+	{
+		rank=source
+		Manifestation [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">Manifestation</TD></TR></TABLE>> URL="../Manifestation" margin=0]
+	}
+	FirstManifestation [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">FirstManifestation</TD></TR></TABLE>> URL="../FirstManifestation" margin=0]
+	{
+		rank=max
+	}
+	subgraph cluster_associated {
+		label="" style=invis
+		Invis [label=<<TABLE BORDER="0" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD></TD></TR></TABLE>> margin=0 style=invis]
+	}
+	FirstManifestation -> Manifestation [arrowhead=onormal style=solid]
+	n63b6c00723f243a496d57ea2b4990be9b6 [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="lightyellow"><TR><TD ALIGN="CENTER">«intersectionOf»</TD></TR></TABLE>> margin=0]
+	Manifestation [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">Manifestation</TD></TR></TABLE>> URL="../Manifestation" margin=0]
+	n63b6c00723f243a496d57ea2b4990be9b6 -> Manifestation [label=member arrowhead=normal style=dotted]
+	n63b6c00723f243a496d57ea2b4990be9b9 [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1" BGCOLOR="lightyellow"><TR><TD ALIGN="CENTER">«not»</TD></TR></TABLE>> margin=0]
+	FirstManifestation [label=<<TABLE BORDER="1" CELLBORDER="0" CELLSPACING="0" CELLPADDING="1"><TR><TD BGCOLOR="lightgray" ALIGN="CENTER">FirstManifestation</TD></TR></TABLE>> URL="../FirstManifestation" margin=0]
+	n63b6c00723f243a496d57ea2b4990be9b9 -> FirstManifestation [label=of arrowhead=normal style=dotted]
+	n63b6c00723f243a496d57ea2b4990be9b6 -> n63b6c00723f243a496d57ea2b4990be9b9 [label=member arrowhead=normal style=dotted]
+	FirstManifestation -> n63b6c00723f243a496d57ea2b4990be9b6 [label=precedesManifestation arrowhead=normal style=solid]
+	FirstManifestation -> Manifestation [label="hasLatestManifestation
+1" arrowhead=normal style=solid]
+}
