@@ -4,6 +4,6 @@ Defines the exceptions for the RecurringEvent, i.e. conditions when it does not 
 
 **Domain**: [RecurringEvent](../classes/RecurringEvent.md)
 
-**Range**: [nc985760117f1497292db9cc9dd676712b4](../classes/nc985760117f1497292db9cc9dd676712b4.md)
+**Range**: [n3444a948a9c64faf81d4b7a6799806b1b4](../classes/n3444a948a9c64faf81d4b7a6799806b1b4.md)
 
 **IRI**: `https://w3id.org/citydata/part1/v1/recursExcept`

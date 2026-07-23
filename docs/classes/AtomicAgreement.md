@@ -31,26 +31,26 @@ An atomic agreement is a simple agreement that cannot be further decomposed into
     <g id="node2" class="node">
     <title>AtomicAgreement</title>
     <g id="a_node2"><a xlink:href="../AtomicAgreement" xlink:title="&lt;TABLE&gt;">
-    <polygon fill="lightgray" stroke="none" points="307.38,-66 307.38,-82.25 547.12,-82.25 547.12,-66 307.38,-66"/>
+    <polygon fill="lightgray" stroke="none" points="309.62,-66 309.62,-82.25 544.88,-82.25 544.88,-66 309.62,-66"/>
     <text xml:space="preserve" text-anchor="start" x="379.62" y="-70" font-family="Arial" font-size="12.00">AtomicAgreement</text>
-    <text xml:space="preserve" text-anchor="start" x="308.38" y="-53.75" font-family="Arial" font-size="12.00">n1891f11426e04e48bbd22003783dc237b10</text>
-    <text xml:space="preserve" text-anchor="start" x="308.38" y="-37.5" font-family="Arial" font-size="12.00">n1891f11426e04e48bbd22003783dc237b12</text>
-    <text xml:space="preserve" text-anchor="start" x="308.38" y="-21.25" font-family="Arial" font-size="12.00">n1891f11426e04e48bbd22003783dc237b14</text>
-    <text xml:space="preserve" text-anchor="start" x="308.38" y="-5" font-family="Arial" font-size="12.00">n1891f11426e04e48bbd22003783dc237b17</text>
-    <polygon fill="none" stroke="black" points="306.38,0 306.38,-83.25 548.12,-83.25 548.12,0 306.38,0"/>
+    <text xml:space="preserve" text-anchor="start" x="310.62" y="-53.75" font-family="Arial" font-size="12.00">nd01adcde27744c0aba6f8a28154fce1db10</text>
+    <text xml:space="preserve" text-anchor="start" x="310.62" y="-37.5" font-family="Arial" font-size="12.00">nd01adcde27744c0aba6f8a28154fce1db12</text>
+    <text xml:space="preserve" text-anchor="start" x="310.62" y="-21.25" font-family="Arial" font-size="12.00">nd01adcde27744c0aba6f8a28154fce1db14</text>
+    <text xml:space="preserve" text-anchor="start" x="310.62" y="-5" font-family="Arial" font-size="12.00">nd01adcde27744c0aba6f8a28154fce1db17</text>
+    <polygon fill="none" stroke="black" points="308.62,0 308.62,-83.25 545.88,-83.25 545.88,0 308.62,0"/>
     </a>
     </g>
     </g>
     <!-- AtomicAgreement&#45;&gt;Agreement -->
     <g id="edge1" class="edge">
     <title>AtomicAgreement&#45;&gt;Agreement</title>
-    <path fill="none" stroke="black" d="M306.38,-46.15C208.64,-51.64 81.51,-65.63 45.25,-101.25 31.44,-114.82 28.29,-136.71 28.41,-154.39"/>
+    <path fill="none" stroke="black" d="M308.8,-46.02C210.74,-51.41 81.81,-65.34 45.25,-101.25 31.44,-114.82 28.29,-136.71 28.41,-154.39"/>
     <polygon fill="none" stroke="black" points="24.91,-154.46 28.85,-164.29 31.9,-154.15 24.91,-154.46"/>
     </g>
     <!-- AtomicAgreement&#45;&gt;Agreement -->
     <g id="edge7" class="edge">
     <title>AtomicAgreement:e&#45;&gt;Agreement:e</title>
-    <path fill="none" stroke="black" d="M549.01,-41.62C567.52,-41.62 561,-70.07 548.01,-83.25 510.94,-120.84 112.04,-65.45 73.25,-101.25 49.93,-122.77 86.74,-168.23 74.12,-180.59"/>
+    <path fill="none" stroke="black" d="M546.76,-41.62C565.27,-41.62 558.76,-70.07 545.76,-83.25 508.87,-120.66 111.86,-65.61 73.25,-101.25 49.93,-122.77 86.74,-168.23 74.12,-180.59"/>
     <polygon fill="black" stroke="black" points="73.51,-177.12 64.92,-183.32 75.5,-183.83 73.51,-177.12"/>
     <polygon fill="white" stroke="none" points="73.25,-101.25 73.25,-144.25 171.25,-144.25 171.25,-101.25 73.25,-101.25"/>
     <text xml:space="preserve" text-anchor="start" x="77.25" y="-129.75" font-family="Arial" font-size="11.00">hasSubAgreement</text>
@@ -71,7 +71,7 @@ An atomic agreement is a simple agreement that cannot be further decomposed into
     <!-- AtomicAgreement&#45;&gt;Activity -->
     <g id="edge5" class="edge">
     <title>AtomicAgreement&#45;&gt;Activity</title>
-    <path fill="none" stroke="black" d="M548.05,-65.2C584.29,-74.58 617.35,-86.71 628.25,-101.25 668.07,-154.35 581.16,-212.18 528.2,-240.91"/>
+    <path fill="none" stroke="black" d="M545.87,-64.65C582.96,-74.1 617.13,-86.42 628.25,-101.25 668.07,-154.35 581.16,-212.18 528.2,-240.91"/>
     <polygon fill="black" stroke="black" points="526.65,-237.78 519.45,-245.55 529.93,-243.96 526.65,-237.78"/>
     <polygon fill="white" stroke="none" points="629.68,-162.25 629.68,-205.25 722.43,-205.25 722.43,-162.25 629.68,-162.25"/>
     <text xml:space="preserve" text-anchor="start" x="633.68" y="-190.75" font-family="Arial" font-size="11.00">commitsToActivity</text>
@@ -92,8 +92,8 @@ An atomic agreement is a simple agreement that cannot be further decomposed into
     <!-- Agent&#45;&gt;AtomicAgreement -->
     <g id="edge6" class="edge">
     <title>Agent&#45;&gt;AtomicAgreement</title>
-    <path fill="none" stroke="black" d="M464.32,-181.35C393.27,-177.37 205.01,-164.96 186.75,-144.25 145.08,-96.98 219.58,-71.08 296.37,-57.28"/>
-    <polygon fill="black" stroke="black" points="306.82,-59.03 296.37,-57.28 305.63,-52.13 306.82,-59.03"/>
+    <path fill="none" stroke="black" d="M464.32,-181.35C393.27,-177.37 205.01,-164.96 186.75,-144.25 144.72,-96.58 220.87,-70.64 298.35,-56.93"/>
+    <polygon fill="black" stroke="black" points="308.88,-58.69 298.43,-56.92 307.71,-51.79 308.88,-58.69"/>
     <polygon fill="white" stroke="none" points="186.75,-112 186.75,-133.5 277.25,-133.5 277.25,-112 186.75,-112"/>
     <text xml:space="preserve" text-anchor="start" x="190.75" y="-119" font-family="Arial" font-size="11.00">inverse hasClaim</text>
     </g>
@@ -138,10 +138,10 @@ An atomic agreement is a simple agreement that cannot be further decomposed into
 | [commitsToActivity](../properties/commitsToActivity.md) | min 1 |
 | [commitsToActivity](../properties/commitsToActivity.md) | min 1 [Activity](https://w3id.org/citydata/part1/v1/Activity) |
 | [hasSubAgreement](../properties/hasSubAgreement.md) | max 0 [Agreement](https://w3id.org/citydata/part1/v1/Agreement) |
-| [n1891f11426e04e48bbd22003783dc237b10](../properties/n1891f11426e04e48bbd22003783dc237b10.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
-| [n1891f11426e04e48bbd22003783dc237b12](../properties/n1891f11426e04e48bbd22003783dc237b12.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
-| [n1891f11426e04e48bbd22003783dc237b14](../properties/n1891f11426e04e48bbd22003783dc237b14.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
-| [n1891f11426e04e48bbd22003783dc237b17](../properties/n1891f11426e04e48bbd22003783dc237b17.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
+| [nd01adcde27744c0aba6f8a28154fce1db10](../properties/nd01adcde27744c0aba6f8a28154fce1db10.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
+| [nd01adcde27744c0aba6f8a28154fce1db12](../properties/nd01adcde27744c0aba6f8a28154fce1db12.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
+| [nd01adcde27744c0aba6f8a28154fce1db14](../properties/nd01adcde27744c0aba6f8a28154fce1db14.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
+| [nd01adcde27744c0aba6f8a28154fce1db17](../properties/nd01adcde27744c0aba6f8a28154fce1db17.md) | only [Agent](https://w3id.org/citydata/part1/v1/Agent) |
 | disjointWith | [ComplexAgreement](ComplexAgreement.md) |
 | subClassOf | [Agreement](Agreement.md) |
 

@@ -52,46 +52,46 @@ The first recorded manifestation of an individual. No prior manifestations (in t
     <text xml:space="preserve" text-anchor="start" x="45.25" y="-261.5" font-family="Arial" font-size="11.00">hasLatestManifestation</text>
     <text xml:space="preserve" text-anchor="start" x="97.38" y="-240" font-family="Arial" font-size="11.00">1</text>
     </g>
-    <!-- n6c39afab06644f4cade7adf92f87691cb7 -->
+    <!-- n8386457c30fb4e29a184b49629d79c3bb7 -->
     <g id="node4" class="node">
-    <title>n6c39afab06644f4cade7adf92f87691cb7</title>
+    <title>n8386457c30fb4e29a184b49629d79c3bb7</title>
     <polygon fill="lightyellow" stroke="none" points="0,-94.38 0,-112.62 91,-112.62 91,-94.38 0,-94.38"/>
     <text xml:space="preserve" text-anchor="start" x="2" y="-99.38" font-family="Arial" font-size="12.00">«intersectionOf»</text>
     <polygon fill="none" stroke="black" points="0,-94.38 0,-112.62 91,-112.62 91,-94.38 0,-94.38"/>
     </g>
-    <!-- FirstManifestation&#45;&gt;n6c39afab06644f4cade7adf92f87691cb7 -->
+    <!-- FirstManifestation&#45;&gt;n8386457c30fb4e29a184b49629d79c3bb7 -->
     <g id="edge6" class="edge">
-    <title>FirstManifestation&#45;&gt;n6c39afab06644f4cade7adf92f87691cb7</title>
+    <title>FirstManifestation&#45;&gt;n8386457c30fb4e29a184b49629d79c3bb7</title>
     <path fill="none" stroke="black" d="M127.51,-189.02C95.05,-183.29 56.64,-173.99 46.5,-161 40.3,-153.05 38.91,-142.38 39.48,-132.45"/>
     <polygon fill="black" stroke="black" points="42.91,-133.2 40.68,-122.84 35.97,-132.33 42.91,-133.2"/>
     <polygon fill="white" stroke="none" points="46.5,-139.5 46.5,-161 162.5,-161 162.5,-139.5 46.5,-139.5"/>
     <text xml:space="preserve" text-anchor="start" x="50.5" y="-146.5" font-family="Arial" font-size="11.00">precedesManifestation</text>
     </g>
     <!-- Invis -->
-    <!-- n6c39afab06644f4cade7adf92f87691cb7&#45;&gt;Manifestation -->
+    <!-- n8386457c30fb4e29a184b49629d79c3bb7&#45;&gt;Manifestation -->
     <g id="edge3" class="edge">
-    <title>n6c39afab06644f4cade7adf92f87691cb7&#45;&gt;Manifestation</title>
+    <title>n8386457c30fb4e29a184b49629d79c3bb7&#45;&gt;Manifestation</title>
     <path fill="none" stroke="black" stroke-dasharray="1,5" d="M36.94,-121.41C21.36,-154.82 -7.14,-230.38 25.5,-280.5 30.63,-288.38 38.31,-294.24 46.71,-298.59"/>
     <polygon fill="black" stroke="black" points="45.24,-301.77 55.8,-302.58 48.05,-295.36 45.24,-301.77"/>
     <text xml:space="preserve" text-anchor="middle" x="36.03" y="-193.3" font-family="Arial" font-size="11.00">member</text>
     </g>
-    <!-- n6c39afab06644f4cade7adf92f87691cb8 -->
+    <!-- n8386457c30fb4e29a184b49629d79c3bb8 -->
     <g id="node5" class="node">
-    <title>n6c39afab06644f4cade7adf92f87691cb8</title>
+    <title>n8386457c30fb4e29a184b49629d79c3bb8</title>
     <polygon fill="lightyellow" stroke="none" points="93.5,-8.88 93.5,-27.12 127.5,-27.12 127.5,-8.88 93.5,-8.88"/>
     <text xml:space="preserve" text-anchor="start" x="95.5" y="-13.88" font-family="Arial" font-size="12.00">«not»</text>
     <polygon fill="none" stroke="black" points="93.5,-8.88 93.5,-27.12 127.5,-27.12 127.5,-8.88 93.5,-8.88"/>
     </g>
-    <!-- n6c39afab06644f4cade7adf92f87691cb7&#45;&gt;n6c39afab06644f4cade7adf92f87691cb8 -->
+    <!-- n8386457c30fb4e29a184b49629d79c3bb7&#45;&gt;n8386457c30fb4e29a184b49629d79c3bb8 -->
     <g id="edge5" class="edge">
-    <title>n6c39afab06644f4cade7adf92f87691cb7&#45;&gt;n6c39afab06644f4cade7adf92f87691cb8</title>
+    <title>n8386457c30fb4e29a184b49629d79c3bb7&#45;&gt;n8386457c30fb4e29a184b49629d79c3bb8</title>
     <path fill="none" stroke="black" stroke-dasharray="1,5" d="M58.65,-85.6C67.82,-73.83 80.2,-57.92 90.57,-44.6"/>
     <polygon fill="black" stroke="black" points="93.06,-47.11 96.44,-37.07 87.53,-42.81 93.06,-47.11"/>
     <text xml:space="preserve" text-anchor="middle" x="101.77" y="-57.05" font-family="Arial" font-size="11.00">member</text>
     </g>
-    <!-- n6c39afab06644f4cade7adf92f87691cb8&#45;&gt;FirstManifestation -->
+    <!-- n8386457c30fb4e29a184b49629d79c3bb8&#45;&gt;FirstManifestation -->
     <g id="edge4" class="edge">
-    <title>n6c39afab06644f4cade7adf92f87691cb8&#45;&gt;FirstManifestation</title>
+    <title>n8386457c30fb4e29a184b49629d79c3bb8&#45;&gt;FirstManifestation</title>
     <path fill="none" stroke="black" stroke-dasharray="1,5" d="M118.81,-35.82C129.92,-58.79 149.69,-101.5 162.5,-139.5 165.63,-148.79 168.4,-159.16 170.63,-168.45"/>
     <polygon fill="black" stroke="black" points="167.18,-169.04 172.82,-178 174,-167.47 167.18,-169.04"/>
     <text xml:space="preserve" text-anchor="middle" x="160.31" y="-99.8" font-family="Arial" font-size="11.00">of</text>

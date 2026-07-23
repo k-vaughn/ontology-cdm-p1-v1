@@ -4,6 +4,6 @@ Defines a condition when the RecurringEvent should be added to. This can specify
 
 **Domain**: [RecurringEvent](../classes/RecurringEvent.md)
 
-**Range**: [nc985760117f1497292db9cc9dd676712b1](../classes/nc985760117f1497292db9cc9dd676712b1.md)
+**Range**: [n3444a948a9c64faf81d4b7a6799806b1b1](../classes/n3444a948a9c64faf81d4b7a6799806b1b1.md)
 
 **IRI**: `https://w3id.org/citydata/part1/v1/recursAddition`
